@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce Lomba IT Fest</title>
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap 4 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="container-flex">
+        <div class="brand">     
+        <img src="LogoZairi.png" alt="">
+            <a href="#">Zairi.ID</a>
+         </div>
+         <div class="burger">
+            <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+         </div>
+         <div class="bg-sidebar"></div>
+         <ul class="sidebar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#shop" class="dropdown" data-toggle="dropdown">
+              Shop
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="shop.html">Shop Catagory</a>
+                <a class="dropdown-item" href="product_details.html">Product Details</a>
+                <a class="dropdown-item" href="product_checkout.html">Product Check Out</a>
+                <a class="dropdown-item" href="shipping_chart.html">Shopping Chart</a>
+                <a class="dropdown-item" href="confirmation.html">Confirmation</a>
+              </div>
+            </a></li>
+            <li><a href="#blog" class="dropdown" data-toggle="dropdown">
+              Blog
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="blog.html">Blog</a>
+                <a class="dropdown-item" href="blog_details.html">Blog Details</a>
+              </div>
+            </a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="login.html">Log In</a></li>
+         </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="jumbotron jumbotron-fluid" style="background-color: rgb(39, 29, 131);">
+    <div class="row container">
+      <div class="col-6 nm-usaha">
+      <h1>Zairi.ID</h1>
+      <p>Welcome to Our Website</p>
+      </div>
+      <div class="col-4">
+        <img src="bnr.png" class="med-screen" alt="">
+      </div>
+    </div>
+  </div>
+ <div class="container">
+    <div class="row">
+        <div class="col-sm-12" style="background-color: aqua;">
+        <p>Returing Cutomer? <a href="#">Click Here to Login</a></p>
+        </div>
+        <div class="col-sm-12">
+            <p>If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.</p>
+        </div>
+        <div class="col-sm-12">
+            <input type="text" name="" placeholder="Input Email or Username*" style="margin-right: 10px;">
+            <input type="text" name="" placeholder="Input Password"  style="margin-left: 10px;">
+        </div>
+        <div class="col-sm-12" style="margin-top: 20px;">
+            <input type="button" value="Login" style="padding-left: 20px;padding-right: 20px; padding-top: 5px;padding-bottom: 5px;">
+            <p>Forgot Password?</p>
+        </div>
+        <div class="col-sm-12" style="background-color: aqua;">
+            <p>Have a coupon? <a href="#">Click here to enter your code</a></p>
+        </div>
+        <div class="col-sm-12" style="margin-top: 20px;">
+            <input type="text" placeholder="Enter Upon Code" style="width: 600px;">
+            <input type="button" value="Apply Coupon">
+        </div>
+    </div><br><br>
+    <div class="row">
+        <div class="col-sm-8">
+            <h4>Big Details</h4><hr><br>
+            <div class="col-sm-12">
+                <input type="text" name="Firts_name" placeholder="Firts Name">
+                <input type="text" name="Last_name" placeholder="Last Name">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="text" name="" placeholder="Company Name">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="number" name="" placeholder="Phone Number*" placeholder="Phone Number*">
+                <input type="text" name="" placeholder="Email Address*">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="text" name="" placeholder="Country">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="text" name="" placeholder="Address Line 1*">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="text" name="" placeholder="Address Line 2*">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="text" name="" placeholder="Towncity">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="text" name="" placeholder="Postcode">
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="checkbox" name="" > Creat an account?
+            </div><br><br>
+            
+            <div class="col-sm-8">
+                <h4>Shipping Details</h4><hr><br>
+            </div>
+            <div class="col-sm-12">
+                <input type="checkbox" > Ship to a different address?
+            </div><br><br>
+            <div class="col-sm-12">
+                <input type="text" name="" placeholder="Order Notes" style="width: 60%; height: 400px;">
+            </div>
+        </div>
+        <div class="col-sm-4" style="background-color: rgba(90, 100, 100, 0.158);">
+            <h4>Your Order</h4><hr><br>
+            <div class="col-sm-12">
+                <div class="row">
+                <div class="col-sm-4">
+                    <p>Product</p>
+                </div>
+                <div class="col-sm-3">
+                    <p>Jumlah</p>
+                </div>
+                <div class="col-sm-4" style="text-align: start;">
+                    <p>Total</p>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Laptop Rog</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p>1 Unit</p>
+                    </div>
+                    <div class="col-sm-4" style="align-items: right;">
+                        <p>Rp.25.399.000</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Harga</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p></p>
+                    </div>
+                    <div class="col-sm-4" style="align-items: right;">
+                        <p>Rp.25.399.000</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Discount</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <p></p>
+                    </div>
+                    <div class="col-sm-4" style="align-items: right;">
+                        <p>Rp.399.000</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p>Total Bayar</p>
+                    </div>
+                    <div class="col-sm-3">
+
+                    </div>
+                    <div class="col-sm-4" style="text-align: end;">
+                        <p>Rp.25.000.000</p>
+                    </div>
+                    </div>
+            </div>
+            <div class="col-sm-12"></div>
+            <div class="col-sm-12"></div>
+        </div><br>
+    </div>
+ </div>
+ <script src="script.js"></script>
+</body>
+<footer class="bwh">
+  <div class="container-info">
+    <div class="row">
+    <div class="col-sm-3 brg-bwh">,col-sm-3</div>
+    <div class="col-sm-3 brg-bwh">.col-sm-3</div>
+    <div class="col-sm-3 brg-bwh">.col-sm-3</div>
+    <div class="col-sm-3 brg-bwh">.col-sm-3</div>
+    </div>
+    <div>
+      <p>By Risky Firdaus Ganteng </p>
+    </div>
+</footer>
+</html>
